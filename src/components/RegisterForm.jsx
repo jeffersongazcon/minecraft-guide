@@ -65,7 +65,6 @@ const RegisterForm = () => {
     return newErrors;
   };
 
-  // Maneja el envío del formulario
   const handleSubmit = async (e) => {
     e.preventDefault();
     setErrors({});
@@ -113,7 +112,7 @@ const RegisterForm = () => {
             <Card.Body className="p-5">
               {/* Header */}
               <div className="text-center mb-4">
-                <h2 className="fw-bold text-success">📝 Registro</h2>
+                <h2 className="fw-bold text-success"> Registro</h2>
                 <p className="text-muted">Crea tu cuenta en Minecraft Guide</p>
               </div>
 

@@ -71,7 +71,7 @@ const LoginForm = () => {
             <Card.Body className="p-5">
               {/* Header */}
               <div className="text-center mb-4">
-                <h2 className="fw-bold text-primary">🎮 Minecraft Guide</h2>
+                <h2 className="fw-bold text-primary"> Minecraft Guia de Construcciones </h2>
                 <h4 className="mb-3">Iniciar Sesión</h4>
                 <p className="text-muted">Accede a tu guía de construcciones</p>
               </div>
@@ -134,7 +134,7 @@ const LoginForm = () => {
                         Iniciando sesión...
                       </>
                     ) : (
-                      '🚀 Ingresar'
+                      ' Ingresar'
                     )}
                   </Button>
                 </div>
@@ -154,17 +154,7 @@ const LoginForm = () => {
                 </p>
               </div>
 
-              {/* Información adicional */}
-              <div className="mt-4 p-3 bg-light rounded">
-                <strong className="text-success">✅ Credenciales de prueba:</strong>
-                <div className="mt-2">
-                  <code className="d-block">Usuario: admin</code>
-                  <code className="d-block">Contraseña: admin123</code>
-                </div>
-                <small className="text-muted d-block mt-2">
-                  💡 El sistema usa la API de .NET con base de datos
-                </small>
-              </div>
+              
             </Card.Body>
           </Card>
         </div>
