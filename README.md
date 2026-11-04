@@ -19,7 +19,7 @@ Ejecuta las pruebas de componentes con Jest:
 npm test
 ```
 
-Las pruebas de `tests/authentication.test.jsx` cubren inicio de sesión, registro, creación de construcciones y favoritos. Las llamadas a la API se simulan, por lo que no hace falta iniciar el backend.
+Cada ejecucion genera un informe HTML en `reports/jest-report.html`, incluso si alguna prueba falla. Las pruebas de `tests/authentication.test.jsx` cubren inicio de sesion, registro, creacion de construcciones y favoritos. Las llamadas a la API se simulan, por lo que no hace falta iniciar el backend.
 
 ## Expanding the ESLint configuration
 

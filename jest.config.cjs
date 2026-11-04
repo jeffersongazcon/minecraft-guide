@@ -6,5 +6,12 @@ module.exports = {
   transform: {
     '^.+\\.[jt]sx?$': 'babel-jest',
   },
+  reporters: [
+    'default',
+    [
+      '<rootDir>/jest-html-report.cjs',
+      { outputFile: 'reports/jest-report.html' },
+    ],
+  ],
   modulePathIgnorePatterns: ['<rootDir>/tests/node_modules/'],
 };
